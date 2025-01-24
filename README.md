@@ -1,8 +1,43 @@
-# calc-js
-calculadora com funcionamento em JavaScript.
+# Calc-js
 
-Desenvolvi essa calculadora num projeto prático guiado do Onebucode.
+Este é um projeto de calculadora interativa desenvolvido em JavaScript. A calculadora permite realizar operações matemáticas básicas como adição, subtração, multiplicação, divisão e módulo. Além disso, possui um recurso de alternância de tema entre claro e escuro.
 
-- A lógica do seu funcionamento se dá por JavaScript através do DOM;
-- Suas funções estão separadas em módulos diferentes, utilizando npm para isso;
-- Estilização feita no css.
+## Funcionalidades
+
+- Adição de dois números.
+- Subtração de dois números.
+- Multiplicação de dois números.
+- Divisão de dois números.
+- Alternância entre tema claro e escuro.
+- Copiar o resultado para a área de transferência.
+
+## Tecnologias Utilizadas
+
+- JavaScript
+- HTML
+- CSS
+
+## Estrutura do Projeto
+
+- `index.html`: Arquivo principal contendo a estrutura da calculadora.
+- `style.css`: Arquivo de estilos customizados para a calculadora.
+- `js/calc.js`: Arquivo JavaScript contendo a lógica da calculadora.
+
+## Como Executar o Projeto
+
+1. Clone o repositório para a sua máquina local.
+2. Abra o arquivo `index.html` em um navegador web.
+
+## Como Usar
+
+1. Insira os números no campo de entrada.
+2. Selecione a operação matemática desejada (adição, subtração, multiplicação, divisão, módulo).
+3. Clique no botão "=" para ver o resultado.
+4. Use o botão "C" para limpar a entrada.
+5. Use o botão "Switch Theme Dark/Light" para alternar entre os temas claro e escuro.
+6. Use o botão "Copy" para copiar o resultado para a área de transferência.
+
+## Autor
+
+Feito por Pedro Araujo
+
