@@ -19,9 +19,13 @@ Este é um projeto de calculadora interativa desenvolvido em JavaScript. A calcu
 
 ## Estrutura do Projeto
 
-- `index.html`: Arquivo principal contendo a estrutura da calculadora.
-- `style.css`: Arquivo de estilos customizados para a calculadora.
-- `js/calc.js`: Arquivo JavaScript contendo a lógica da calculadora.
+- `index.html`: Arquivo principal contendo a estrutura da calculadora;
+- `style.css`: Arquivo de estilos customizados para a calculadora;
+- `js/calc.js`: Arquivo JavaScript contendo a lógica da calculadora, que está divida nos seguintes módulos:
+    - `js/calculate.js`: Executa a operação digitada na calculadora;
+    - `js/clipboard.js`: Armazena clicando no botão "copy" na barra de transferência o valor obitido;
+    - `js/theme.js`: Muda o tema para claro ou escuro;
+    - `js/variables.js`: Arquivo com a variáveis utilizáveis pela calculadora.
 
 ## Como Executar o Projeto
 
